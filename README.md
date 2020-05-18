@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
 ```
 
 ### Run
-In a terminal or command window, navigate to the top-level project directory (that contains this README). You need to set up a [EMR](https://aws.amazon.com/pt/emr/) cluster. So, start by renaming the file `confs/dl.template.cfg` to  `confs/dl.cfg` and fill in the `KEY` and `SECRET` in the AWS section and `DL_CODE_BUCKET_NAME` and `DL_DATA_BUCKET_NAME` with the name of a S3 bucket. Then, enter the following command:
+In a terminal or command window, navigate to the top-level project directory (that contains this README). You need to set up a [EMR](https://aws.amazon.com/pt/emr/) cluster. So, start by renaming the file `confs/dl.template.cfg` to  `confs/dl.cfg` and fill in the `KEY` and `SECRET` in the AWS section and `DL_CODE_BUCKET_NAME` and `DL_DATA_BUCKET_NAME` with the name of a S3 buckets in CLUSTER section. Then, enter the following commands:
 
 ```shell
 $ python iac.py -i
