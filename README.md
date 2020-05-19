@@ -1,4 +1,4 @@
-Data Warehouse using AWS
+Data Lake using AWS
 ===========================
 
 This project is part of the [Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) program, from Udacity. I manipulate data for a music streaming app called Sparkify, where I write an ETL pipeline for a data lake hosted on S3.
